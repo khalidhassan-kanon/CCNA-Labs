@@ -1,4 +1,3 @@
-
 # Lab-01: Basic Network Connectivity
 
 ## Objective
@@ -14,7 +13,7 @@ PC1 ---- Switch ---- PC2
 | Device      | Quantity |
 | ----------- | -------- |
 | PC          | 2        |
-| Switch 2960 | 1        |
+| Switch 2950 | 1        |
 
 ## IP Addressing
 
@@ -37,9 +36,9 @@ Configure IP addresses on both PCs.
 
 Verify connectivity using the ping command.
 
-Command executed from PC1:
+Command executed from PC2:
 
-ping 192.168.1.20
+ping 192.168.1.10
 
 ### Step 4
 
@@ -60,14 +59,14 @@ arp -a
 ### Topology
 
 Insert topology screenshot here.
+<img width="870" height="278" alt="image" src="https://github.com/user-attachments/assets/3e661861-ec4c-4f17-a621-1d38f43d8f6a" />
 
 ### Successful Ping
 
-Insert ping screenshot here.
+<img width="697" height="477" alt="image" src="https://github.com/user-attachments/assets/ff02e1e9-eec7-44ed-8dd5-2d1254d3168c" />
+
 
 ### ARP Table
-
-<img width="305" height="274" alt="image" src="https://github.com/user-attachments/assets/b486db78-3402-4429-a54f-6e7d0e51d3a3" />
 
 
 ## Concepts Learned
@@ -79,13 +78,21 @@ Insert ping screenshot here.
 * ICMP
 * Layer 2 switching
 
-## Troubleshooting
+## Potential Issues
 
-Issue:
-Incorrect IP address configuration prevented communication.
+- Incorrect IP addressing
+- Wrong subnet mask
+- Faulty cable connection
+- Disabled network interface
 
-Resolution:
-Verified IP settings and corrected the addressing scheme.
+These issues were not encountered during this lab.
+
+## Validation
+
+- Verified physical connectivity
+- Verified IP addressing
+- Verified successful ICMP communication
+- Verified ARP table population
 
 ## Conclusion
 
