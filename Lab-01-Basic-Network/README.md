@@ -58,7 +58,6 @@ arp -a
 
 ### Topology
 
-Insert topology screenshot here.
 <img width="870" height="278" alt="image" src="https://github.com/user-attachments/assets/3e661861-ec4c-4f17-a621-1d38f43d8f6a" />
 
 ### Successful Ping
@@ -67,6 +66,7 @@ Insert topology screenshot here.
 
 
 ### ARP Table
+<img width="656" height="141" alt="image" src="https://github.com/user-attachments/assets/05de3be3-efbf-498e-ba32-88ebb648b1b8" />
 
 
 ## Concepts Learned
