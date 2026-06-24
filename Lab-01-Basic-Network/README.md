@@ -30,7 +30,7 @@ Connect both PCs to the switch using Copper Straight-Through cables.
 
 ### Step 2
 
-Step 2: Assign static IPv4 addresses and subnet masks to both PCs.
+Configure the IP address and subnet mask on each PC using the static addressing method.
 
 ### Step 3
 
