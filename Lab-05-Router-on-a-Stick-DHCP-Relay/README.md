@@ -12,29 +12,6 @@ Build a multi-VLAN enterprise network using a Cisco Layer 2 switch, a router con
 <img width="1385" height="690" alt="topolgy" src="https://github.com/user-attachments/assets/a9828b95-db9c-454b-b962-e202ed7fe984" />
 
 
-Example:
-
-```text
-                 DHCP Server
-                  10.0.0.2
-                      |
-               G0/0/1 | 10.0.0.1
-                +-----------+
-                |  Router   |
-                +-----------+
-               G0/0/0 (Trunk)
-                      |
-               Fa0/13 (Trunk)
-                +-----------+
-                | 2950 L2   |
-                |  Switch   |
-                +-----------+
-      VLAN10   VLAN20   VLAN30   VLAN40
-      Fa0/1-3  Fa0/4-6  Fa0/7-9  Fa0/10-12
-```
-
----
-
 ## Devices Used
 
 | Device | Model         | Quantity |
