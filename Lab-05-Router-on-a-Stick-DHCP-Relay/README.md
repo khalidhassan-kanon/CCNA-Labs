@@ -1,4 +1,4 @@
-<img width="476" height="163" alt="show interfaces trunk" src="https://github.com/user-attachments/assets/906691c1-3258-4a15-a592-741cf6cd405b" />
+
 # Lab-05: Inter-VLAN Routing with Router-on-a-Stick and Centralized DHCP Server
 
 ## Objective
@@ -262,15 +262,15 @@ After correcting the gateway:
 
 ## Validation
 
-* ✅ VLANs created successfully.
-* ✅ Access ports assigned correctly.
-* ✅ Trunk operational.
-* ✅ Router-on-a-Stick configured.
-* ✅ DHCP relay functioning.
-* ✅ DHCP server reachable.
-* ✅ Clients received correct IP addresses.
-* ✅ Successful inter-VLAN routing.
-* ✅ End-to-end connectivity verified.
+*  VLANs created successfully.
+*  Access ports assigned correctly.
+*  Trunk operational.
+*  Router-on-a-Stick configured.
+*  DHCP relay functioning.
+*  DHCP server reachable.
+*  Clients received correct IP addresses.
+*  Successful inter-VLAN routing.
+*  End-to-end connectivity verified.
 
 ---
 
